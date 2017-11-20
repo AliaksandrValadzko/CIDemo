@@ -18,6 +18,6 @@ public class LogicTests
 		Logic logic = new Logic();
 		String unexpectedText = "not logic text";
 		String actualText = logic.printLogic();
-		Assert.assertEquals(actualText, unexpectedText);
+		Assert.assertNotEquals(actualText, unexpectedText);
 	}
 }
