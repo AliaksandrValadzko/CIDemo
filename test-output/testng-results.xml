@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19" started-at="2017-11-20T10:57:59Z" finished-at="2017-11-20T10:57:59Z">
+  <suite name="UnitTests" duration-ms="20" started-at="2017-11-20T11:13:36Z" finished-at="2017-11-20T11:13:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19" started-at="2017-11-20T10:57:59Z" finished-at="2017-11-20T10:57:59Z">
+    <test name="unit" duration-ms="20" started-at="2017-11-20T11:13:36Z" finished-at="2017-11-20T11:13:36Z">
       <class name="LogicTests">
-        <test-method status="FAIL" signature="printLogicFailingTest()[pri:0, instance:LogicTests@234bef66]" name="printLogicFailingTest" duration-ms="8" started-at="2017-11-20T13:57:59Z" finished-at="2017-11-20T13:57:59Z">
+        <test-method status="FAIL" signature="printLogicFailingTest()[pri:0, instance:LogicTests@234bef66]" name="printLogicFailingTest" duration-ms="8" started-at="2017-11-20T14:13:36Z" finished-at="2017-11-20T14:13:36Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [not logic text] but found [logic text]]]>
@@ -50,11 +50,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLogicFailingTest -->
-        <test-method status="PASS" signature="printLogicTest()[pri:0, instance:LogicTests@234bef66]" name="printLogicTest" duration-ms="1" started-at="2017-11-20T13:57:59Z" finished-at="2017-11-20T13:57:59Z">
+        <test-method status="PASS" signature="printLogicTest()[pri:0, instance:LogicTests@234bef66]" name="printLogicTest" duration-ms="1" started-at="2017-11-20T14:13:36Z" finished-at="2017-11-20T14:13:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printLogicTest -->
       </class> <!-- LogicTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- unit -->
+  </suite> <!-- UnitTests -->
 </testng-results>
